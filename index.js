@@ -41,3 +41,5 @@ app.get('/categories/:id', (req, res) => {
 app.listen(port, () => {
     console.log(`dragon API is Runnging on port ${port}`);
 })
+
+module.exports = app;
